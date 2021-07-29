@@ -1,0 +1,33 @@
+.size-bannner{
+    width: 550px;
+    height: 450px;
+}
+.background-head{
+    background-color: #264653;
+}
+.btn-background{
+    background: #E76F51;
+    
+}
+.btn1{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.pcolor{
+    color: #E0E0E0;
+}
+.sm-color{
+    color: #E76F51;
+
+}
+.hr-color{
+    color: #E76F51;
+    width: 50px;
+    
+}
+
+.img-content1{
+    filter: grayscale(100%);
+}
+
+

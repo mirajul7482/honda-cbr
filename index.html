@@ -11,10 +11,42 @@
 </head>
 <body>
     <!-- start header section -->
-   <!-- start banner content section -->
+   <!-- start navbar section -->
    <header>
-    <section class="background-head container-fluid text-white justify-content-center">
-          <div class="container d-flex align-items-center row">
+    <section class="background-head container-fluid text-white  ">
+      <div class="d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light background-head fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#fetured">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#latest">Latest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white"  href="#faq">FAQ</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white btn btn-background py-2 px-3" href="">Login</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- end navbar section -->
+      <!-- start banner content section -->
+          <div id="home" class="container d-flex align-items-center row justify-content-center">
             <div class=" p-5 col-lg-6 col-md-12">
                 <p class="pcolor"><small>Computer-controlled digital transistorized with electronic advance</small></p>
                 <h1>Honda CBR 300R</h1>
@@ -53,7 +85,7 @@
    </header>
    <main>
        <!-- futured bikes section -->
-       <section class="container text-center m-5">
+       <section id="fetured" class="container text-center m-5">
         <h1 class="m-0">Fetured Bikes 2021</h1>
         <p class=" m-0"><small class="sm-color ">Best bike collection</small></p>
         <hr class="my-0 mx-auto hr-color">
@@ -71,7 +103,7 @@
 
        </section>
         <!-- latest News section start-->
-        <section class="container" id="shoes">
+        <section  class="container" id="latest">
             <h1 class="text-center m-5">latest News</h1>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col my-3">
@@ -115,7 +147,7 @@
         <!-- latest News section end-->
         <!-- happy clients section start-->
        <section class="container">
-           <h1 class="text-center m-5 fw-bold">Happy <span class="sm-color">Clients says</span> </h1>
+           <h1 class="text-center m-5 fw-bold" id="clients">Happy <span class="sm-color">Clients says</span> </h1>
            <div class="d-flex justify-content-between row text-center m-5">
             <div class="card p-3 col-lg-4 col-md-6 col-12 shadow-lg  my-3" style="width: 18rem;">
                 <img src="images/user-1.png" class="card-img-top p-4" alt="...">
@@ -174,7 +206,7 @@
 
         <!-- Frequently Asked section start-->
 
-       <section>
+       <section id="faq">
            <h1 class="text-center my-5">Frequently Asked <span class="sm-color fw-bold "> Questions</span></h1>
            <div class="d-flex container row justify-content-between m-5 align-items-center">
                <div class="col-lg-5 ms-5  my-3">
@@ -302,7 +334,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="active"><strong>29</strong></td>
+                                <td class="active btn-primary"><strong>29</strong></td>
                                 <td class="muted">30</td>
                                 <td class="muted">31</td>
                                 <td>1</td>
@@ -330,7 +362,7 @@
                             </tr>
                             <tr>
                                 <td>19</td>
-                                <td class="btn-primary">20</td>
+                                <td>20</td>
                                 <td>21</td>
                                 <td>22</td>
                                 <td>23</td>

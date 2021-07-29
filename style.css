@@ -1,3 +1,6 @@
+.nav-item a{
+    color: white;
+}
 .size-bannner{
     width: 550px;
     height: 450px;
@@ -29,5 +32,6 @@
 .img-content1{
     filter: grayscale(100%);
 }
+
 
 
